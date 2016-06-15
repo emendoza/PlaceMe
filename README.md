@@ -15,7 +15,7 @@ Please run the following:
   
 This will start the app on port 8080
 
-NOTE make sure 8080 is not currently being used!
+NOTE: make sure 8080 is not currently being used!
 
 Search
 
@@ -26,7 +26,8 @@ Search
     a. Here users can add a reference point in the form of an addres, city etc.
     This will be the location where the search will center around.
     
-    b. Miles from reference point refers to the radius in which the search will find locations.
+    b. Ideal Miles from reference point refers to a radius within which the search will bias locations. Locations found within the radius will be ranked higher.
+    	NOTE: locations outside of the radius will still be discovered.
     
   3. Pressing on the "PlaceMe" button or clicking the enter key will run the search and take users to the results page.
   

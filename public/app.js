@@ -80,11 +80,13 @@ placeMe.controller('homeController', ['$scope', '$location', 'shared', function(
 	//Call GMap API using a specified starting location LatLng, radius, and search query
 	function getLocations(latlng) {
 		service = new google.maps.places.PlacesService(document.getElementById('map'));
+		var meters = $scope.miles * 1609;
 		var request = {
 			location: latlng,
-			radius: $scope.miles,
+			radius: meters,
 			query: $scope.searchtext
 		}
+		console.log(request);
 		service.textSearch(request, callback);
 	}
 

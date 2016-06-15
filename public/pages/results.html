@@ -17,7 +17,7 @@
 	        <div ng-repeat="entry in results">
 	        	<div ng-class="isNotLast($last)">
 		        	<div class="entryHeader">
-		        		<a class="entryName" ng-href="http://maps.google.com/?q={{entry.formatted_address}}" target="_blank">{{entry.name}}</a>
+		        		<a class="entryName" ng-href="http://maps.google.com/?q={{entry.formatted_address}}" target="_blank">{{$index + 1}}. {{entry.name}}</a>
 		        		<img class="entryIcon" ng-src="{{entry.icon}}"/>
 		        	</div>
 		        	<p class="entryAddress">{{entry.formatted_address}}</p>
