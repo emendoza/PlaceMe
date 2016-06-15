@@ -1,6 +1,7 @@
 # PlaceMe
 Location Finder App
 github: https://github.com/emendoza/PlaceMe.git
+Tested on Google Chrome and Internet Explorer 11
 
 This application allows users to search for specified locations.
 

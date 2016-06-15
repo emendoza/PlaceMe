@@ -45,7 +45,6 @@
 
 .mile{
 	float: left;
-	display: flex; 
 }
 
 .mileText{
@@ -54,10 +53,11 @@
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	margin-right: 10px;
 	color: #939393;
+	float: left;
 }
 
 .mileInput{
 	width: 70px;
 	margin-top: 10px;
-	float: left
+	float: left;
 }
