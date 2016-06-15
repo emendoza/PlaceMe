@@ -7,7 +7,7 @@
   "repository" :
   { "type" : "git",
   	"url" : "https://github.com/emendoza/PlaceMe.git"
-  }
+  },
   "dependencies" : {
     "express"        : "^4.13.4"
   }
