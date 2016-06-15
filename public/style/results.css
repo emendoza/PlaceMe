@@ -1,0 +1,49 @@
+/* CSS for results.html and resultsController */
+
+/* navbar brand name */
+.brand{
+	cursor: pointer; 
+	cursor: hand;
+}
+
+
+.mainResults{
+    width: 500px;
+
+	/* used to created rounded corners effect */ 
+    border: 2px solid black;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row | column;
+}
+
+.innerResults{
+	margin: 20px;
+}
+
+.entryName{
+	font-size: 25px;
+	color: #58FF4C;
+	text-decoration: underline;
+}
+
+.entryTypes{
+	font-size: 12px;
+}
+
+.entryIcon{
+	float: right;
+	height: 30px;
+	width: 30px;
+	margin-top: 5px;
+}
+
+/* Added border to entries that aren't last */ 
+.addBorder{
+	border-bottom: 1px solid black;
+}

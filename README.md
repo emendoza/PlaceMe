@@ -1,5 +1,6 @@
 # PlaceMe
 Location Finder App
+github: https://github.com/emendoza/PlaceMe.git
 
 This application allows users to search for specified locations.
 
@@ -12,6 +13,8 @@ Please run the following:
   'npm start'
   
 This will start the app on port 8080
+
+NOTE make sure 8080 is not currently being used!
 
 Search
 

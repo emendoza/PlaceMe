@@ -1,0 +1,63 @@
+/* CSS for home.html and homeController*/
+
+.home{
+	margin-top: 100px;
+}
+
+/* CSS for Search Form */
+.searchForm{
+    width: 400px;
+    margin: 50px auto; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.searchText{
+	float: left;
+	width: 300px;
+}
+
+.placeMeBtn{
+	float: left;
+	margin-left: 15px;
+}
+
+/* CSS for controlling Advanced Options */
+.advancedOptionsArrow{
+	margin-top: 5px;
+	color: #939393;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+.advancedOptionsHide{
+	display:none;
+}
+
+.showAOText{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.referenceText{
+	width: 300px;
+	margin-top: 10px;
+	float: left;
+}
+
+.mile{
+	float: left;
+	display: flex; 
+}
+
+.mileText{
+	flex: 1;
+	line-height: 55px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-right: 10px;
+	color: #939393;
+}
+
+.mileInput{
+	width: 70px;
+	margin-top: 10px;
+	float: left
+}

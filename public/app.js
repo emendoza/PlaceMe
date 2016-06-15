@@ -47,14 +47,18 @@ placeMe.controller('homeController', ['$scope', '$location', 'shared', function(
 
 	//Triggers on PlaceMe button click
 	$scope.locationSearch = function(){
-		if ($scope.referencetext == ""){
-			getLocationsGlobal();
+		if ($scope.searchtext == ""){
+			alert('Must have search query')
 		}
-		else {
-			//Have to locate the reference's Lattitude and Longitude in order to work with Google properly
-			geocodeAddress($scope.referencetext);
+		else{
+			if ($scope.referencetext == ""){
+				getLocationsGlobal();
+			}
+			else {
+				//Have to locate the reference's Lattitude and Longitude in order to work with Google properly
+				geocodeAddress($scope.referencetext);
+			}
 		}
-
 	}
 
 	//Get the LatLng of an address and then run the location search using that LatLng
