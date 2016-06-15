@@ -1,0 +1,118 @@
+.mainResults{
+    width: 500px;
+
+    border: 2px solid black;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row | column;
+}
+
+.home{
+	margin-top: 100px;
+}
+
+.searchForm{
+    width: 400px;
+    margin: 50px auto; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.brandHeader{
+	text-align: center;
+	font-weight: 200;
+	font-size: 75px;
+	color: #58FF4C;
+	letter-spacing: 5px;
+}
+
+.brand{
+	cursor: pointer; 
+	cursor: hand;
+}
+
+.innerResults{
+	margin: 20px;
+}
+
+.searchText{
+	float: left;
+	width: 300px;
+}
+
+.placeMeBtn{
+	float: left;
+	margin-left: 15px;
+}
+
+.advancedOptionsArrow{
+	margin-top: 5px;
+	color: #939393;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+.showAOText{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+.mile{
+	float: left;
+	display: -ms-flex;
+	display: -webkit-flex; 
+	display: flex; 
+}
+
+.mileText{
+	flex: 1;
+	line-height: 55px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-right: 10px;
+	color: #939393;
+}
+
+.mileInput{
+	width: 70px;
+	margin-top: 10px;
+	float: left
+}
+
+.referenceText{
+	width: 300px;
+	margin-top: 10px;
+	float: left;
+}
+
+.advancedOptionsHide{
+	display:none;
+}
+
+.entryName{
+	font-size: 25px;
+	color: #58FF4C;
+	text-decoration: underline;
+}
+
+.entryTypes{
+	font-size: 12px;
+}
+
+.entryIcon{
+	float: right;
+	height: 30px;
+	width: 30px;
+	margin-top: 5px;
+}
+
+.addBorder{
+	border-bottom: 1px solid black;
+}

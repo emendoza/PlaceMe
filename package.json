@@ -1,0 +1,10 @@
+{
+  "name"         : "place-me",
+  "version"      : "0.0.0",
+  "description"  : "Simple location query application.",
+  "main"         : "server.js",
+  "author"       : "Emilio Mendoza",
+  "dependencies" : {
+    "express"        : "^4.13.4"
+  }
+}

@@ -1,0 +1,32 @@
+<!-- results.html -->
+
+	<header>
+		<div id = "map"></div>
+        <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand brand" ng-click="returnHome()">PlaceMe</a>
+            </div>
+        </div>
+        </nav>
+    </header>
+    
+	<h1 class="brandHeader">Results</h1>
+	<div class="mainResults">
+		<div class="innerResults">
+	        <div ng-repeat="entry in results">
+	        	<div ng-class="isNotLast($last)">
+		        	<div class="entryHeader">
+		        		<a class="entryName" ng-href="http://maps.google.com/?q={{entry.formatted_address}}" target="_blank">{{entry.name}}</a>
+		        		<img class="entryIcon" ng-src="{{entry.icon}}"/>
+		        	</div>
+		        	<p class="entryAddress">{{entry.formatted_address}}</p>
+		        	<p class="entryTypes">Tags: 
+		        		<span ng-repeat="type in entry.types">
+		        			{{type}}
+		        		</span>
+		        	</p>
+	        	</div>
+	    	</div>
+    	</div>
+    </div>

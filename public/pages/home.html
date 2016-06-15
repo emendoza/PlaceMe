@@ -1,0 +1,18 @@
+<!-- home.html -->
+    <div class="home">
+		<h1 class="brandHeader">PlaceMe</h1>
+		<form class="searchForm">
+			<input type="text" class = "searchText form-control" ng-model="searchtext" placeholder="Search for a point of interest">
+			<button type="submit" class="btn btn-default placeMeBtn" ng-click="locationSearch()">PlaceMe</button>
+			<div class="advancedOptions" ng-class="advancedOptionsHide">
+				<input type="text" class = "referenceText form-control" ng-model="referencetext" placeholder="Add a reference location (city, address, etc.)">
+				<div class="mile">
+					<div class="mileText">Miles from Reference Point </div>
+					<input type="text" class = "mileInput form-control" ng-model="miles" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+			</div>
+			<i class="fa advancedOptionsArrow" ng-class="showAOArrowClass" ng-click="switchAO()">
+				<span class="showAOText">{{showAOText}}</span>
+			</i>
+		</form>
+    </div>
