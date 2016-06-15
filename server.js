@@ -1,4 +1,4 @@
-//server.js
+//used to run the application
     
     var express  = require('express');
     var app      = express();
@@ -9,4 +9,4 @@
         res.sendfile('./public/index.html');
     });
     app.listen(8080);
-    console.log("App listening on port 8080!!! swag");
+    console.log("App listening on port 8080");

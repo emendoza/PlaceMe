@@ -2,26 +2,23 @@
 <html ng-app="placeMe">
 	<head>
 
+		<!-- googleMap library -->
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfcJgh7KB4Ix4CreNlZuTddAY4n4T-LIQ&libraries=places"></script>
 
+		<!-- CSS libraries -->
 	    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
 	    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
 			
-		  <!--
-		  <script src="lib/angular.min.js"></script>
-		  -->
-
-		  
+		<!-- Angular libraries -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-resource.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.min.js"></script>
 
 		<script src="app.js"></script>
-
 		<link rel="stylesheet" href="style/main.css">
 
 	</head>
-	<body ng-controller='mainController' class="body">
+	<body class="body">
 		<div id='map'></div>
 		<div ng-view></div>
 	</body>
